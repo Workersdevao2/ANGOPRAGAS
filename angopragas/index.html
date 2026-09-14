@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ANGOPRAGAS DESINFESTAÇÃO — Controlo de pragas, desinfestação e consultoria em Luanda. Desde 2019. WhatsApp +244 926 855 239.">
+  <meta name="theme-color" content="#B91C2C">
+  <title>ANGOPRAGAS DESINFESTAÇÃO | Controlo de Pragas — Luanda</title>
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.5-1.1a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></symbol>
+    <symbol id="i-bug" viewBox="0 0 24 24"><path d="M8 6.5a4 4 0 0 1 8 0"/><path d="M12 10v10"/><path d="M8 14h8"/><path d="M5 10h2M17 10h2M5 18h2M17 18h2M7 7 5 5M17 7l2-2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 3.4 8.6 8 10 4.6-1.4 8-5 8-10V7l-8-4z"/></symbol>
+  </svg>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="#inicio" class="logo">
+        <img src="assets/logo.jpg" alt="ANGOPRAGAS" class="logo-img" width="120" height="48">
+      </a>
+      <nav class="nav">
+        <a href="#inicio" data-i18n="nav_home">Início</a>
+        <a href="#sobre" data-i18n="nav_about">Sobre</a>
+        <a href="#servicos" data-i18n="nav_services">Serviços</a>
+        <a href="#produtos" data-i18n="nav_products">Produtos</a>
+        <a href="#precos" data-i18n="nav_prices">Preços</a>
+        <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+      </nav>
+      <div class="header-right">
+        <div class="lang">
+          <button type="button" class="active" data-lang="pt">PT</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <button type="button" class="burger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav">
+    <a href="#inicio" data-i18n="nav_home">Início</a>
+    <a href="#sobre" data-i18n="nav_about">Sobre</a>
+    <a href="#servicos" data-i18n="nav_services">Serviços</a>
+    <a href="#produtos" data-i18n="nav_products">Produtos</a>
+    <a href="#precos" data-i18n="nav_prices">Preços</a>
+    <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+  </div>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="hero-media">
+        <video class="js-autoplay" autoplay muted loop playsinline webkit-playsinline x-webkit-airplay="deny" preload="auto" poster="assets/equipa.jpg" disablepictureinpicture>
+          <source src="assets/hero-1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">ANGOPRAGAS · Luanda</p>
+            <h1 data-i18n="hero_h1">Proteja o seu espaço com quem entende de pragas</h1>
+            <div class="title-line"></div>
+            <p class="lead" data-i18n="hero_lead">Desde 2019 em Luanda. Controlo de pragas, desinfestação e consultoria com métodos seguros para pessoas e ambiente.</p>
+            <div class="hero-actions">
+              <a href="#contacto" class="btn btn-fill" data-i18n="hero_cta1">Agendar visita</a>
+              <a href="#servicos" class="btn btn-line" data-i18n="hero_cta2">Ver serviços</a>
+            </div>
+            <div class="hero-meta">
+              <div class="meta-item">
+                <span class="meta-num">2019</span>
+                <span class="meta-label" data-i18n="meta1">Desde 2019</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-num">24/24</span>
+                <span class="meta-label" data-i18n="meta2">Área técnica 24/24</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-num">LDA</span>
+                <span class="meta-label" data-i18n="meta3">Luanda</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <video class="js-autoplay" autoplay muted loop playsinline webkit-playsinline x-webkit-airplay="deny" preload="auto" poster="assets/trabalho.jpg" disablepictureinpicture>
+              <source src="assets/hero-2.mp4" type="video/mp4">
+            </video>
+            <div class="hero-card-caption">
+              <p data-i18n="hero_cap"><strong>Combate e prevenção</strong> — o parceiro certo para o seu negócio ou lar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-white" id="sobre">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-copy">
+            <div class="about-brand">
+              <img src="assets/logo.jpg" alt="ANGOPRAGAS" width="140" height="56">
+            </div>
+            <p class="eyebrow" data-i18n="about_eye">Sobre nós</p>
+            <h2 data-i18n="about_h2">Confiança e qualidade desde 2019</h2>
+            <div class="title-line"></div>
+            <p data-i18n="about_p1">A ANGOPRAGAS DESINFESTAÇÃO combina formação, consultoria, prestação de serviços e venda de produtos para controlo de pragas.</p>
+            <p data-i18n="about_p2">Não escolhemos só pelo preço: valorizamos capacidade técnica, métodos seguros e resultados que protegem a saúde e o bem-estar das pessoas.</p>
+          </div>
+          <div class="pillars">
+            <div class="pillar">
+              <div class="pillar-thumb">
+                <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=200&q=80" alt="Formação" loading="lazy">
+              </div>
+              <div>
+                <h3 data-i18n="p1t">Formação e Consultoria</h3>
+                <p data-i18n="p1d">Capacitação e aconselhamento técnico para empresas e particulares.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-thumb">
+                <img src="assets/trabalho.jpg" alt="Serviços de campo" loading="lazy">
+              </div>
+              <div>
+                <h3 data-i18n="p2t">Prestação de serviços</h3>
+                <p data-i18n="p2d">Dedetização e desinfestação com equipa especializada e resposta rápida.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-thumb">
+                <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=200&q=80" alt="Produtos" loading="lazy">
+              </div>
+              <div>
+                <h3 data-i18n="p3t">Venda de produtos</h3>
+                <p data-i18n="p3d">Produtos profissionais para prevenção e combate contínuo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-cream" id="servicos">
+      <div class="container">
+        <div class="services-head">
+          <p class="eyebrow" data-i18n="svc_eye">Serviços</p>
+          <h2 data-i18n="svc_h2">Soluções completas de desinfestação</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="services-grid">
+          <article class="svc">
+            <div class="svc-img">
+              <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=700&q=80" alt="Controlo de pragas" loading="lazy">
+            </div>
+            <div class="svc-body">
+              <h3 data-i18n="svc1t">Controlo de pragas</h3>
+              <p data-i18n="svc1d">Eliminação e prevenção de ratos, baratas, formigas, mosquitos, térmitas, pulgas, moscas e outras pragas.</p>
+              <div class="svc-tags">
+                <span class="tag">Residências</span>
+                <span class="tag">Empresas</span>
+                <span class="tag">Prevenção</span>
+              </div>
+            </div>
+          </article>
+          <article class="svc">
+            <div class="svc-img">
+              <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=700&q=80" alt="Desinfestação de viatura" loading="lazy">
+            </div>
+            <div class="svc-body">
+              <h3 data-i18n="svc2t">Desinfestação de viaturas</h3>
+              <p data-i18n="svc2d">Conduza com conforto. Tratamento seguro e eficaz no interior da sua viatura, ambulância ou frota.</p>
+              <div class="svc-tags">
+                <span class="tag">Ambulâncias</span>
+                <span class="tag">Frota</span>
+                <span class="tag">Particular</span>
+              </div>
+            </div>
+          </article>
+          <article class="svc">
+            <div class="svc-img">
+              <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=700&q=80" alt="Espaço comercial" loading="lazy">
+            </div>
+            <div class="svc-body">
+              <h3 data-i18n="svc3t">Espaços comerciais</h3>
+              <p data-i18n="svc3d">Hotéis, restaurantes, escritórios e centros comerciais — protecção discreta e contínua.</p>
+              <div class="svc-tags">
+                <span class="tag">Hotéis</span>
+                <span class="tag">Restaurantes</span>
+                <span class="tag">Escritórios</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="areas">
+          <h3 data-i18n="areas_t">Actuamos em</h3>
+          <div class="areas-list">
+            <span>Condomínios</span>
+            <span>Residências</span>
+            <span>Empresas</span>
+            <span>Escritórios</span>
+            <span>Centros comerciais</span>
+            <span>Hotéis</span>
+            <span>Restaurantes</span>
+            <span>Viaturas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-white" id="pragas">
+      <div class="container">
+        <p class="eyebrow" data-i18n="pest_eye">Dedetização contra</p>
+        <h2 data-i18n="pest_h2">Pragas que combatemos</h2>
+        <div class="title-line"></div>
+        <div class="pests-grid">
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-bug"/></svg></div><span>Ratos</span></div>
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-bug"/></svg></div><span>Baratas</span></div>
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-bug"/></svg></div><span>Formigas</span></div>
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-bug"/></svg></div><span>Mosquitos</span></div>
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-bug"/></svg></div><span>Aranhas</span></div>
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-bug"/></svg></div><span>Térmitas</span></div>
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-bug"/></svg></div><span>Moscas</span></div>
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-bug"/></svg></div><span>Pulgas</span></div>
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-bug"/></svg></div><span>Pragas de grão</span></div>
+          <div class="pest"><div class="pest-icon-wrap"><svg><use href="#i-shield"/></svg></div><span>Outros</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-cream" id="produtos">
+      <div class="container">
+        <div class="products-head">
+          <p class="eyebrow" data-i18n="prod_eye">Produtos</p>
+          <h2 data-i18n="prod_h2">Produtos para controlo de pragas</h2>
+          <div class="title-line"></div>
+          <p class="lead" data-i18n="prod_lead">Soluções profissionais para prevenção e combate. Preços orientativos — confirme disponibilidade.</p>
+        </div>
+        <div class="products-grid">
+          <article class="product">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&q=80" alt="Insecticida residual" loading="lazy">
+            </div>
+            <div class="product-body">
+              <h3 data-i18n="pd1t">Insecticida residual</h3>
+              <p data-i18n="pd1d">Tratamento de longa duração para baratas, formigas e insectos rastejantes. Uso profissional.</p>
+              <div class="product-meta">
+                <span class="product-price">8.500 <small>Kz</small></span>
+                <a href="#contacto" class="btn btn-line" style="padding:0.5rem 0.9rem;font-size:0.65rem" data-i18n="pd_cta">Encomendar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&q=80" alt="Gel anti-baratas" loading="lazy">
+            </div>
+            <div class="product-body">
+              <h3 data-i18n="pd2t">Gel anti-baratas</h3>
+              <p data-i18n="pd2d">Aplicação discreta em cozinhas e áreas de serviço. Efeito em cadeia na colónia.</p>
+              <div class="product-meta">
+                <span class="product-price">6.200 <small>Kz</small></span>
+                <a href="#contacto" class="btn btn-line" style="padding:0.5rem 0.9rem;font-size:0.65rem" data-i18n="pd_cta">Encomendar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80" alt="Armadilha para roedores" loading="lazy">
+            </div>
+            <div class="product-body">
+              <h3 data-i18n="pd3t">Armadilha para roedores</h3>
+              <p data-i18n="pd3d">Estações de isco e armadilhas para ratos. Segurança para crianças e animais.</p>
+              <div class="product-meta">
+                <span class="product-price">12.000 <small>Kz</small></span>
+                <a href="#contacto" class="btn btn-line" style="padding:0.5rem 0.9rem;font-size:0.65rem" data-i18n="pd_cta">Encomendar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=500&q=80" alt="Repelente de mosquitos" loading="lazy">
+            </div>
+            <div class="product-body">
+              <h3 data-i18n="pd4t">Repelente de mosquitos</h3>
+              <p data-i18n="pd4d">Spray e soluções para áreas exteriores e interiores. Protecção prolongada.</p>
+              <div class="product-meta">
+                <span class="product-price">4.800 <small>Kz</small></span>
+                <a href="#contacto" class="btn btn-line" style="padding:0.5rem 0.9rem;font-size:0.65rem" data-i18n="pd_cta">Encomendar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-white" id="precos">
+      <div class="container">
+        <div class="prices-head">
+          <p class="eyebrow" data-i18n="price_eye">Preços</p>
+          <h2 data-i18n="price_h2">Pacotes claros, orçamento justo</h2>
+          <div class="title-line"></div>
+          <p class="lead" data-i18n="price_lead">Valores orientativos. O orçamento final depende da área, tipo de praga e frequência.</p>
+        </div>
+        <div class="prices-grid">
+          <div class="price-card">
+            <div class="price-bg">
+              <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80" alt="Residencial" loading="lazy">
+            </div>
+            <div class="price-inner">
+              <div class="price-name" data-i18n="pr1n">Residencial</div>
+              <div class="price-value" data-i18n="pr1v">A partir de 25.000 Kz</div>
+              <p class="price-desc" data-i18n="pr1d">Casas e apartamentos — tratamento pontual ou plano de manutenção.</p>
+              <ul class="price-list">
+                <li>Inspecção inicial</li>
+                <li>Tratamento da área afectada</li>
+                <li>Orientação de prevenção</li>
+                <li>Garantia do serviço</li>
+              </ul>
+              <a href="#contacto" class="btn btn-line" style="width:100%" data-i18n="pr_cta">Agendar visita</a>
+            </div>
+          </div>
+          <div class="price-card featured" data-badge="Mais pedido">
+            <div class="price-bg">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Comercial" loading="lazy">
+            </div>
+            <div class="price-inner">
+              <div class="price-name" data-i18n="pr2n">Comercial</div>
+              <div class="price-value" data-i18n="pr2v">A partir de 45.000 Kz</div>
+              <p class="price-desc" data-i18n="pr2d">Escritórios, lojas, restaurantes e hotéis — contratos mensais disponíveis.</p>
+              <ul class="price-list">
+                <li>Plano de controlo contínuo</li>
+                <li>Relatório técnico</li>
+                <li>Visitas programadas</li>
+                <li>Prioridade de resposta</li>
+              </ul>
+              <a href="#contacto" class="btn btn-fill" style="width:100%" data-i18n="pr_cta">Agendar visita</a>
+            </div>
+          </div>
+          <div class="price-card">
+            <div class="price-bg">
+              <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&q=80" alt="Viaturas" loading="lazy">
+            </div>
+            <div class="price-inner">
+              <div class="price-name" data-i18n="pr3n">Viaturas</div>
+              <div class="price-value" data-i18n="pr3v">A partir de 15.000 Kz</div>
+              <p class="price-desc" data-i18n="pr3d">Carros, ambulâncias e frota — desinfestação completa do habitáculo.</p>
+              <ul class="price-list">
+                <li>Tratamento interior completo</li>
+                <li>Produtos seguros</li>
+                <li>Agendamento flexível</li>
+                <li>Ideal para frotas</li>
+              </ul>
+              <a href="#contacto" class="btn btn-line" style="width:100%" data-i18n="pr_cta">Agendar visita</a>
+            </div>
+          </div>
+        </div>
+        <p class="price-note" data-i18n="pr_note">Pagamentos via MCX Express e outros métodos. Orçamento sem compromisso.</p>
+      </div>
+    </section>
+
+    <div class="trust">
+      <div class="container trust-inner">
+        <div class="trust-item"><strong>2019</strong><span>Ano de fundação</span></div>
+        <div class="trust-item"><strong>24/24</strong><span>Área técnica</span></div>
+        <div class="trust-item"><strong>MCX</strong><span>Pagamentos Express</span></div>
+        <div class="trust-item"><strong>100%</strong><span>Orçamento sem compromisso</span></div>
+      </div>
+    </div>
+
+    <section class="section bg-cream" id="galeria">
+      <div class="container">
+        <p class="eyebrow" data-i18n="gal_eye">Galeria</p>
+        <h2 data-i18n="gal_h2">O nosso trabalho</h2>
+        <div class="title-line"></div>
+        <div class="gallery-grid">
+          <div class="g-item"><img src="assets/flyer.jpg" alt="Campanha" loading="lazy"></div>
+          <div class="g-item"><img src="assets/equipa.jpg" alt="Equipa" loading="lazy"></div>
+          <div class="g-item"><img src="assets/trabalho.jpg" alt="Campo" loading="lazy"></div>
+          <div class="g-item"><img src="assets/horario.jpg" alt="Horário" loading="lazy"></div>
+          <div class="g-item"><img src="assets/despertador.jpg" alt="Campanha" loading="lazy"></div>
+          <div class="g-item"><img src="assets/logo.jpg" alt="Logo" loading="lazy"></div>
+        </div>
+        <div class="gallery-cta">
+          <a href="https://www.instagram.com/angopragas_desinfestacao/" target="_blank" rel="noopener" class="btn btn-line" data-i18n="gal_cta">Ver no Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-white" id="contacto">
+      <div class="container">
+        <p class="eyebrow" data-i18n="ct_eye">Contacto</p>
+        <h2 data-i18n="ct_h2">Agende a sua visita</h2>
+        <div class="title-line"></div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="c-row">
+              <div class="c-icon"><svg><use href="#i-pin"/></svg></div>
+              <div>
+                <h4>Localização</h4>
+                <p data-i18n="ct_addr">Rua do Partido — Benfica, Luanda</p>
+              </div>
+            </div>
+            <div class="c-row">
+              <div class="c-icon"><svg><use href="#i-phone"/></svg></div>
+              <div>
+                <h4>WhatsApp</h4>
+                <a href="https://wa.me/244926855239">+244 926 855 239</a>
+              </div>
+            </div>
+            <div class="c-row">
+              <div class="c-icon"><svg><use href="#i-mail"/></svg></div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:angopragas@gmail.com">angopragas@gmail.com</a>
+              </div>
+            </div>
+            <div class="c-row">
+              <div class="c-icon"><svg><use href="#i-clock"/></svg></div>
+              <div>
+                <h4>Horário</h4>
+                <p data-i18n="ct_hours">Escritório Seg–Sex 09:00–17:30 · Técnico 24/24</p>
+              </div>
+            </div>
+            <div class="socials">
+              <a href="https://www.facebook.com/angopragasoficial" target="_blank" rel="noopener" class="social" aria-label="Facebook">Fb</a>
+              <a href="https://www.instagram.com/angopragas_desinfestacao/" target="_blank" rel="noopener" class="social" aria-label="Instagram">Ig</a>
+            </div>
+          </div>
+          <form class="form" id="contact-form">
+            <div class="field">
+              <label for="name" data-i18n="f_name">Nome</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="phone" data-i18n="f_phone">Telefone / WhatsApp</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="service" data-i18n="f_svc">Serviço de interesse</label>
+              <select id="service" name="service">
+                <option value="">Seleccione…</option>
+                <option value="Controlo de pragas">Controlo de pragas</option>
+                <option value="Desinfestação de viatura">Desinfestação de viatura</option>
+                <option value="Espaço comercial / hotel">Espaço comercial / hotel</option>
+                <option value="Formação / Consultoria">Formação / Consultoria</option>
+                <option value="Produtos">Produtos</option>
+                <option value="Outro">Outro</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message" data-i18n="f_msg">Mensagem</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-fill" style="width:100%" data-i18n="f_send">Enviar via WhatsApp</button>
+            <p class="form-note" data-i18n="f_note">Abre o WhatsApp com a mensagem já preenchida. Resposta rápida.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <img src="assets/logo.jpg" alt="ANGOPRAGAS" class="logo-img" width="100" height="40">
+          </div>
+          <p data-i18n="foot_tag">Controlo de pragas, desinfestação e consultoria em Luanda.</p>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="foot_nav">Navegação</h4>
+          <a href="#inicio" data-i18n="nav_home">Início</a>
+          <a href="#sobre" data-i18n="nav_about">Sobre</a>
+          <a href="#servicos" data-i18n="nav_services">Serviços</a>
+          <a href="#produtos" data-i18n="nav_products">Produtos</a>
+          <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="foot_svc">Serviços</h4>
+          <a href="#servicos">Controlo de pragas</a>
+          <a href="#servicos">Desinfestação de viaturas</a>
+          <a href="#produtos">Produtos</a>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="foot_ct">Contacto</h4>
+          <a href="https://wa.me/244926855239">+244 926 855 239</a>
+          <a href="mailto:angopragas@gmail.com">angopragas@gmail.com</a>
+          <a href="#contacto">Rua do Partido — Benfica</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ANGOPRAGAS DESINFESTAÇÃO</span>
+        <span>Luanda · Angola</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="float">
+    <div class="ai-panel" id="ai-panel">
+      <div class="ai-top">
+        <h4 data-i18n="ai_title">Assistente ANGOPRAGAS</h4>
+        <button type="button" class="ai-x" id="ai-close" aria-label="Fechar">×</button>
+      </div>
+      <div class="ai-msgs" id="ai-msgs"></div>
+      <div class="ai-quick">
+        <button type="button">Preços</button>
+        <button type="button">Horário</button>
+        <button type="button">Onde estamos</button>
+        <button type="button">Produtos</button>
+      </div>
+      <div class="ai-input">
+        <input type="text" id="ai-input" data-i18n="ai_ph" placeholder="Escreva a sua dúvida…">
+        <button type="button" id="ai-send">→</button>
+      </div>
+    </div>
+    <button type="button" class="f-btn f-ai" id="ai-toggle" aria-label="Assistente">
+      <svg><use href="#i-chat"/></svg>
+    </button>
+    <a href="https://wa.me/244926855239" class="f-btn f-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
